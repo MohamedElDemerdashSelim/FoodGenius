@@ -15,9 +15,7 @@ class FoodGenius extends StatelessWidget {
     return MaterialApp.router(
       routerConfig: AppRouter.router,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor: kPrimaryColor,
-      ),
+      theme: ThemeData.light(),
     );
   }
 }
